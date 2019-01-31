@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <script src="custom.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: none;">
+<h1 style="margin: 0 0 3px 0; font-family: 'Bree Serif', serif;">Gallery
+    <button style="margin-left: 80% !important;  background-color: rgba(255,189,85,0.39); padding: 5px;  margin-bottom: 7px; color: black; border-color: #443827; border-radius: 10%"
+            onclick="window.location.href='index.html'">Главная
+    </button>
+    <button style=" padding: 5px; margin-bottom: 7px;  background-color: rgba(255,189,85,0.39); color: black;  border-color: #443827; border-radius: 10%"
+            onclick="window.location.href='form.html'">Связь
+    </button>
+</h1>
+<div>
+    <p style='text-align: center; margin: 0'>
+        <img id='bigimg' src='image/img8-js.jpg' height='500' alt='Главное изображение'/>
+    </p>
+    <table style='margin: 0 auto;' border='1'>
+        <tr>
+            <td>
+                <img src='image/img8-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 1'/>
+            </td>
+            <td>
+                <img src='image/img9-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 2'/>
+            </td>
+            <td>
+                <img src='image/img10-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 3'/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src='image/img16-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 4'/>
+            </td>
+            <td>
+                <img src='image/img6-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 5'/>
+            </td>
+            <td>
+                <img src='image/img4-js.jpg' width='500' onclick='setBigImage(this)' alt='Изображение 6'/>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
